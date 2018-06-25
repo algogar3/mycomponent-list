@@ -7,7 +7,8 @@ Readme file
 <button class="container__button">Click me!</button>
 ```
 ## Example
-<link rel="stylesheet" href="https://albertosite.000webhostapp.com/amaris-button/src/styles/main.css">
+<style> @import url("https://albertosite.000webhostapp.com/amaris-button/src/styles/main.css"); </style>
+<link rel="stylesheet" href="">
 
 <div class="container">
 	<button class="container__button">Click me!</button>
