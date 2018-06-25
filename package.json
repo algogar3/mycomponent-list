@@ -1,0 +1,11 @@
+{
+  "name": "amaris-component-catalog",
+  "version": "1.0.0",
+  "description": "web app to show a component's list and import them to other projects",
+  "main": "index.js", // change!!
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

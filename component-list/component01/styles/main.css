@@ -1,0 +1,36 @@
+:root {
+
+	/* Button styles variables */
+	--button-bg-color: #ffaf1a;
+	--button-bg-color-hover: #ffa500;
+	--button-color: white;
+	--button-width: 100%;
+	--button-padding: 0.6em;
+	--button-cursor-hover: pointer;
+	--button-radius-0p6: 0.6em 0.6em 0.6em 0.6em;
+	--border-button-none: 0px solid #fff;
+
+	/* Font styles variables */
+	--primary-font-family: serif;
+	--primary-font-size: 2vw;
+	--bold-font: bold;
+}
+
+.container__button {
+	background-color: var(--button-bg-color);
+	color: var(--button-color);
+	width: var(--button-width);
+	border: var(--border-button-none);
+	font-family: var(--primary-font);
+	font-size: var(--primary-font-size);
+	font-weight: var(--bold-font);
+	padding: var(--button-padding);
+	-border-radius: var(--button-radius-0p6);
+	-moz-border-radius: var(--button-radius-0p6);
+	-webkit-border-radius: var(--button-radius-0p6);
+}
+
+.container__button:hover{
+	background-color: var(--button-bg-color-hover);
+	cursor: var(--button-cursor-hover);
+}
