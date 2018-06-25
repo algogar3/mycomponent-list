@@ -6,7 +6,7 @@ Readme file
 ```
 
 #example 1
-<link rel="stylesheet" href="https://albertosite.000webhostapp.com/amaris-button/src/styles/main.css">
+<link rel="stylesheet" href="https://github.com/algogar3/mycomponent-list/tree/master/component-list/component01/styles/main.css">
 
 <div class="container">
 	<button class="container__button">Click me!</button>
