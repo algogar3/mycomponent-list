@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Component's list</title>
+</head>
+<body>
+	<span id="container"></span>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+	<script>
+		showdown.setOption('ghCodeBlocks', true);
+		var showdownGlobalOptions = showdown.getOptions();
+		console.log(showdownGlobalOptions);
+
+	    let converter = new showdown.Converter();
+	    let text = '# Component01\n##Sourcecode\n```html\n<button class="container__button">Click me!</button>\n```\n##Example\n<link rel="stylesheet" href="https://albertosite.000webhostapp.com/amaris-button/src/styles/main.css"><div class="container">\n<button class="container__button">Click me!</button></div>\n#Component02\n##Sourcecode\n```html\n<p>not implemented yet</p>\n```\n##Example\nnot implemented yet';
+	    let html = converter.makeHtml(text);
+
+	    $('#container').append(html);
+	</script>
+	
+</body>
+</html>

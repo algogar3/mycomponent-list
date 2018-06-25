@@ -1,4 +1,3 @@
-
 Readme file
 
 # Component 01
@@ -7,8 +6,7 @@ Readme file
 <button class="container__button">Click me!</button>
 ```
 ## Example
-<style> @import url("https://albertosite.000webhostapp.com/amaris-button/src/styles/main.css"); </style>
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="https://albertosite.000webhostapp.com/amaris-button/src/styles/main.css">
 
 <div class="container">
 	<button class="container__button">Click me!</button>
@@ -20,3 +18,4 @@ Readme file
 <p>not implemented yet</p>
 ```
 ## Example
+not implemented yet
